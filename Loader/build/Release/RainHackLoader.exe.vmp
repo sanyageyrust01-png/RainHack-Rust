@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="RainHackLoader.exe" Options="266952" VMCodeSectionName=".gobuybroo" VMComplexity="20" OutputFileName="RainHackFREE.exe">
+        <Messages />
+        <Folders />
+        <Procedures>
+            <Procedure MapAddress='VMProtectMarker &quot;main.earlyChecks&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;main.payload&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;main.loginThread&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;crypto.aesGcmDecrypt&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;inject.validateModules&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;inject.kernelStream&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='VMProtectMarker &quot;inject.kdmExtract&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;vdb.check&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='VMProtectMarker &quot;vdb.disable&quot;' Options="0" CompilationType="1" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <Script />
+</Document>

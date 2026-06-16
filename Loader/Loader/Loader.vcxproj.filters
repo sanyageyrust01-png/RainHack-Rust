@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{a8888888-1111-2222-3333-aaaaaaaaaaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{a8888888-1111-2222-3333-bbbbbbbbbbbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Util.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\Json.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\Crypto.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\AntiDebug.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\AntiVM.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\AntiTamper.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\AntiPatch.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\Injector.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\Vdb.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\GUI.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\Resources.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\Ban.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\ApiResolve.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\ChaCha20.cpp"><Filter>src</Filter></ClCompile>
+    <ClCompile Include="src\AntiDbg.cpp"><Filter>src</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Config.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\VMProtectSDK.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\Util.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\Json.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\Crypto.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\AntiDebug.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\AntiVM.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\AntiTamper.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\AntiPatch.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\Injector.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\Vdb.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\GUI.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\Resources.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\Ban.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\ApiResolve.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\ChaCha20.h"><Filter>src</Filter></ClInclude>
+    <ClInclude Include="src\AntiDbg.h"><Filter>src</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\loader.rc"><Filter>resources</Filter></ResourceCompile>
+  </ItemGroup>
+</Project>

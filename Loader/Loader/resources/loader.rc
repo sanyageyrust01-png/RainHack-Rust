@@ -1,0 +1,43 @@
+#include <winres.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "RainHack"
+            VALUE "FileDescription",  "RainHack Loader"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "RainHackLoader.exe"
+            VALUE "OriginalFilename", "RainHackLoader.exe"
+            VALUE "ProductName",      "RainHack Loader"
+            VALUE "ProductVersion",   "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#define RT_OPAQUE_BLOB   256
+
+#define IDR_KDMAPPER     0x5C2D
+#define IDR_CHEAT_BLOB   0x7A1B
+#define IDR_DRIVER_BLOB  0x3E9F
+
+IDR_KDMAPPER     RT_OPAQUE_BLOB "gamma.bin"
+IDR_CHEAT_BLOB   RT_OPAQUE_BLOB "alpha.bin"
+IDR_DRIVER_BLOB  RT_OPAQUE_BLOB "beta.bin"

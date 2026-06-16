@@ -1,0 +1,16 @@
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\main.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\main.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\Util.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\Util.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\Json.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\Json.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\Crypto.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\Crypto.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\AntiDebug.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\AntiDebug.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\AntiVM.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\AntiVM.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\AntiTamper.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\AntiTamper.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\AntiPatch.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\AntiPatch.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\Injector.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\Injector.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\Vdb.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\Vdb.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\GUI.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\GUI.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\Resources.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\Resources.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\Ban.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\Ban.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\ApiResolve.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\ApiResolve.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\ChaCha20.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\ChaCha20.obj
+C:\Users\valera\Documents\RainHackFree\Loader\Loader\src\AntiDbg.cpp;C:\Users\valera\Documents\RainHackFree\Loader\build\Release\Loader\AntiDbg.obj
